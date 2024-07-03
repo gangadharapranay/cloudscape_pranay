@@ -1,0 +1,64 @@
+/* SidebarStyles.css */
+.single-nested {
+    position: relative;
+    top: 0;
+    left: 10%;
+    width: 90%;
+    z-index: 1000;
+    color: white;
+
+}
+#platform-tag{
+    color: darkgray;
+    font-size: 10px;
+    text-align: right;
+}
+#jboss-tag{
+    text-align: right;
+    color: green;
+}
+/* sidebar.css */
+
+#sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 250px; /* Adjust width as needed */
+    height:auto;
+    overflow-y: auto; /* Add scroll inside the sidebar if the content overflows */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+
+  /* sidebar-styles.css */
+
+/* Styling for sidebar links */
+.sidebar-link {
+    display: block;
+    padding: 10px 15px;
+    color: #ffffff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  
+    /* Set initial background color */
+    background-color: transparent; 
+  }
+  
+  /* Hover effect */
+  .sidebar-link:hover {
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    color: rgb(126, 126, 126);
+  }
+  
+  /* Focus effect */
+.single-nested-sidebar-link:focus{
+    outline: none; /* Remove default focus outline */
+    background-color: rgba(131, 131, 131, 0.1); /* Semi-transparent white */
+    border-radius: 10px;
+  }
+  
+  /* Nested dropdown links */
+  .sidebar-link .sidebar-dropdown .sidebar-item .sidebar-link {
+    padding-left: 30px; /* Adjust padding for nested items */
+  }
+  

@@ -1,0 +1,28 @@
+.theme-toggle {
+    position: fixed;
+    margin-top: 250px;
+    bottom: 0px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    z-index: 1000; /* Ensure it's above other content */
+    background-color: none; /* Button background color */
+    border: none; /* Remove default button border */
+    border-radius: 50%; /* Make the button round */
+    width: 30px; /* Adjust button width */
+    height: 30px; /* Adjust button height */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .theme-toggle i {
+    font-size: 24px; /* Adjust icon size */
+    color: #333; /* Icon color */
+  }
+  
+  .theme-toggle:hover {
+    cursor: pointer;
+    /* background-color: #f0f0f0; Background color on hover */
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+  }
+  

@@ -1,0 +1,46 @@
+users-list.css
+
+/* Container for the entire users list */
+.users-list-container {
+  padding-left: 20px; /* Adjust this value as per your sidebar width */
+}
+
+/* Apply padding to the table head */
+.users-list-container .mdb-table-head {
+  padding-left: 20px; /* Same padding as container for the table head */
+}
+
+/* Adjust margin for the table */
+.users-table {
+  margin-left: 40px; /* Adjust the margin as per your sidebar width */
+  margin-top: 30px; /* Adjust as needed */
+}
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px; /* Top padding */
+  padding-right: 10px; /* Right padding */
+  padding-left: 10px; /* Left padding */
+}
+
+
+/* Styling for the search bar */
+.search-bar {
+  margin-top: 20px; /* Adjust spacing */
+  padding-left: 40px; /* Left padding */
+  display: flex;
+  align-items: center;
+  max-width: 300px; /* Adjust width as needed */
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 10px; /* Adjust padding */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Border radius */
+}
+
+.search-bar .search-icon {
+  margin-right: 10px; /* Space between icon and input */
+}

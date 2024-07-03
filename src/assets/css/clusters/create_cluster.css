@@ -1,0 +1,19 @@
+
+
+/* styles.css */
+.formItem {
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .customTextField input {
+    padding: 10px 14px; /* Adjust padding to control height */
+  }
+  
+  .customTextField .MuiInputLabel-outlined {
+    transform: translate(14px, 8px) scale(1);
+  }
+  
+  .customTextField .MuiInputLabel-shrink {
+    transform: translate(14px, -6px) scale(0.75);
+  }
+  
